@@ -1,0 +1,131 @@
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.about-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: lighter;
+    font-size: larger;
+    color: #2c3e50;
+    font-family: "Tofu";
+
+}
+
+.skillset-title {
+    font-weight: bold;
+}
+
+.skillset-container {
+    display: flex;
+}
+
+.skillset-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #2c3e50;
+    font-family: "Tofu";
+    width: 50%;
+}
+
+.frontend-skills h1 {
+    color: #2c3e50;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: larger;
+}
+
+.frontend-skills span {
+    color: #E83EA9;
+    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace";
+    border: 1px solid #DEE2E6;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.node-img {
+    width: 50px;
+    height: 50px;
+}
+
+.backend-skills span {
+    color: #E83EA9;
+    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace";
+    border: 1px solid #DEE2E6;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.frontend-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.frontend-skills-titles {
+    display: flex;
+    gap: 1%;
+}
+
+.backend-skills-titles {
+    display: flex;
+    gap: 1%;
+}
+
+.backend-skills h1 {
+    color: #2c3e50;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: larger;
+}
+
+.to-projects-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    text-align: center;
+    text-decoration: none;
+    color: #2c3e50;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: larger;
+    width: 20%;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    border-radius: 50px;
+    margin-top: 7%;
+}
+
+
+
+.resume button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #f58849;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

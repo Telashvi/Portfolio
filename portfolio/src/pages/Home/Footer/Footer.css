@@ -1,0 +1,26 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    margin-bottom: 1%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.social-icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    width: 20%;
+}
+
+.seperator-footer{
+    border:3px solid #EBEBEB;
+    margin-bottom: 1%;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
