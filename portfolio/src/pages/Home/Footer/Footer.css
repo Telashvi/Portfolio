@@ -7,7 +7,9 @@
     flex-direction: column;
     width: 100%;
 }
-
+.resume a{
+    text-decoration: none;
+}
 .social-icons-container{
     display: flex;
     justify-content: center;
