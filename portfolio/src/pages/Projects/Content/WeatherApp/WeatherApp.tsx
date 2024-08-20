@@ -14,8 +14,8 @@ function WeatherApp() {
                     an option to add to favorites is included. 
                     </span>
                     <div className='project-btns'>
-                    <button className='repo-btn'>Repository Link</button>
-                    <button className='live-btn'>View site</button>
+                    <a href='https://github.com/Telashvi/WeatherForecastFrontend' className='repo-btn'>Repository Link</a>
+                    <a href='https://weatherforecastfrontend.onrender.com/' className='live-btn'>View site</a>
                     </div>
                 </div>
 
