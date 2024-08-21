@@ -12,11 +12,20 @@
     align-items: center;
     flex-direction: column;
     gap: 1em;
-    font-weight: lighter;
-    font-size: larger;
-    color: #2c3e50;
-    font-family: "Tofu";
-
+    font-weight: bold;
+    font-size: large;
+    font-weight: bold;
+    background: linear-gradient(to right, #328cbc, #2a5298);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: "roboto";
+    border: 2px solid #328cbc;
+    padding:25px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
 }
 
 .skillset-title {
